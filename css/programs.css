@@ -1,0 +1,30 @@
+/* #000000; /* black */
+/* #101112; /* darker-grey */
+/* #1c1c1f; /* dark-grey */
+/* #222226; /* slate */
+/* #35373b; /* mid-grey */
+/* #87888a; /* grey */
+/* #dbdbdb; /* light-grey */
+/* #f6f7f7; /* off-white */
+/* #ffffff; /* white */
+/* #bf3f34; /* red */
+
+
+
+#programs-main-content {
+	padding: 20px;
+}
+#threeds-banner,
+#pre-accelerator-banner {
+	text-align: center;
+}
+#threeds-banner {
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.75), rgba(0, 0, 100, 0.75)), url('../img/working_02.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+}
+#co-working-banner {
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.75), rgba(0, 0, 100, 0.75)), url('../img/redlabs.jpg');
+    background-size: cover;
+    background-position: 50% 20%;
+}

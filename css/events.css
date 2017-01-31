@@ -1,0 +1,38 @@
+/* #000000; /* black */
+/* #101112; /* darker-grey */
+/* #1c1c1f; /* dark-grey */
+/* #222226; /* slate */
+/* #35373b; /* mid-grey */
+/* #87888a; /* grey */
+/* #dbdbdb; /* light-grey */
+/* #f6f7f7; /* off-white */
+/* #ffffff; /* white */
+/* #bf3f34; /* red */
+
+
+
+#events-main-content {
+	padding: 20px;
+}
+#events-jumbotron {
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.75), rgba(0, 0, 100, 0.75)), url('../img/collaboration.jpg');
+    background-size: cover;
+    background-position: 15% 60%;
+	text-align: center;
+}
+#events-jumbotron h1 {
+	color: white;
+	font-size: 40px;
+	padding: 50px;
+	text-align: center;
+}
+#event-1-heading {
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.65), rgba(0, 0, 100, 0.65)), url('../img/founders_dinner_01.jpg');
+    background-size: cover;
+    background-position: 15% 50%;
+}
+#event-2-heading {
+    background: #bf3f34; /* red */
+    background-size: cover;
+    background-position: 50% 50%;
+}

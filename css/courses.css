@@ -1,0 +1,33 @@
+/* #000000; /* black */
+/* #101112; /* darker-grey */
+/* #1c1c1f; /* dark-grey */
+/* #222226; /* slate */
+/* #35373b; /* mid-grey */
+/* #87888a; /* grey */
+/* #dbdbdb; /* light-grey */
+/* #f6f7f7; /* off-white */
+/* #ffffff; /* white */
+/* #bf3f34; /* red */
+
+
+
+#courses-main-content {
+	padding: 20px;
+}
+#intro-to-tech-banner,
+#pre-accelerator-banner {
+	text-align: center;
+}
+#intro-to-tech-banner {
+	background: #bf3f34; /* red */
+	background-size: cover;
+	background-position: 50% 50%;
+}
+#pre-accelerator-banner {
+	background: #bf3f34; /* red */
+	background-size: cover;
+	background-position: 50% 50%;
+}
+#courses-main-content .info-block-full-sec h4 {
+	text-align: center;
+}

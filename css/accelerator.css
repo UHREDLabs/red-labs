@@ -1,0 +1,159 @@
+/* #000000; /* black */
+/* #101112; /* darker-grey */
+/* #1c1c1f; /* dark-grey */
+/* #222226; /* slate */
+/* #35373b; /* mid-grey */
+/* #87888a; /* grey */
+/* #dbdbdb; /* light-grey */
+/* #f6f7f7; /* off-white */
+/* #ffffff; /* white */
+/* #bf3f34; /* red */
+
+
+
+#accelerator-main-content {
+    padding: 20px;
+    min-height: 1100px;
+}
+#accelerator-main-content .jumbotron {
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.75), rgba(191, 63, 52, 0.75)), url('../img/bss_grind_01.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#accelerator-main-content .jumbotron .flex-wrapper div {
+    padding: 0;
+    text-align: center !important;
+}
+#accelerator-main-content .jumbotron .flex-wrapper div img {
+    height: 150px;
+    width: auto;
+    display: inline-block;
+    margin: -30px 20px 0 0;
+}
+#accelerator-main-content .jumbotron .flex-wrapper div h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    display: inline-block;
+    line-height: 150px;
+    font-size: 40px;
+}
+#accelerator-main-content .info-block-full p {
+    margin-bottom: 10px !important;
+}
+#accelerator-main-content .info-block-full p:last-child {
+    margin-bottom: 0px !important;
+}
+.fa-circle {
+    color: #101112; /* darker-grey */
+}
+.fa-building-o,
+.fa-tachometer,
+.fa-users {
+    color: #ffffff; /* white */
+}
+.fa-tachometer {
+    margin-top: -8px;
+}
+
+
+
+/********************************Class Sections*********************************/
+/*******************************************************************************/
+.class-section{
+    width: 100%;
+    background: #222226; /* slate */
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+}
+.class-section h1 {
+    text-align: center;
+    margin-bottom: 40px
+}
+.class-section p {
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 10px 20px 20px;
+    border-top: 1px solid #35373b; /* mid-grey */
+}
+.class-hide {
+    background: none;
+    border: none;
+    outline: none;
+    color: #87888a; /* grey */
+    font-size: 18px !important;
+}
+#class-one-show{
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.75), rgba(191, 63, 52, 0.75)), url('../img/class_1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#class-two-show{
+    background: linear-gradient(0deg, rgba(100, 50, 0, 0.75), rgba(50, 100, 50, 0.75)), url('../img/bss_grind_01.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#class-three-show{
+    background: linear-gradient(120deg, rgba(191, 63, 52, 0.75), rgba(121, 121, 0, 0.75)), url('../img/bss_grind_01.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#class-four-show{
+    background: linear-gradient(120deg, rgba(127, 52, 191, 0.75), rgba(0, 100, 100, 0.75)), url('../img/class_4_02.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
+}
+
+
+
+/********************************Class Squares**********************************/
+/*******************************************************************************/
+.class-squares {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.class-square {
+    width: 150px;
+    height: 150px;
+    background: #101112; /* darker-grey */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+.class-squares a:hover {
+    text-decoration: none !important;
+}
+.class-square:hover {
+    background: black;
+}
+
+
+
+/*******************************Smaller Screens*********************************/
+/*******************************************************************************/
+@media(max-width: 768px) {
+    #accelerator-main-content .jumbotron .flex-wrapper div {
+        padding: 0px !important;
+    }
+    #accelerator-main-content .jumbotron .flex-wrapper div img {
+        height: 75px;
+        width: auto;
+        margin: -11px 5px 0 0;
+        padding: 0;
+    }
+    #accelerator-main-content .jumbotron .flex-wrapper div h1 {
+        line-height: 75px;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+}
